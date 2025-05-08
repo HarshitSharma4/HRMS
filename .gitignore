@@ -1,1 +1,34 @@
-add git ignore
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Generated files and folders
+dist/
+build/
+.parcel-cache/
+.vite/
+
+# testing
+/coverage
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor related
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# System files
+.DS_Store
+Thumbs.db
